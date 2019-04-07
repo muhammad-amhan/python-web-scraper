@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 class FetchProductInfo(object):
 
     def __init__(self):
-        self.url = 'https://www.humblebundle.com/games/humble-indie-bundle-20?hmb_source=navbar&hmb_medium=product_tile&hmb_campaign=tile_index_1'
+        self.url = 'https://www.humblebundle.com/games/bandai-namco-bundle-3?hmb_source=navbar&hmb_medium=product_tile&hmb_campaign=tile_index_2'
         self.products_info_dict = {}
         self.get_offers()
 
